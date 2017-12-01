@@ -10,6 +10,8 @@
 		2A68D72F5971109C2FD690A1 /* Pods_TwitterToolApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06115131CA1EC24ED2DDB5A7 /* Pods_TwitterToolApp.framework */; };
 		950F40431FD17FC000A0EFC7 /* CustomTweetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 950F40421FD17FC000A0EFC7 /* CustomTweetTableViewCell.m */; };
 		950F40461FD1821800A0EFC7 /* CustomTweetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950F40451FD1821800A0EFC7 /* CustomTweetView.m */; };
+		950F404C1FD1C38D00A0EFC7 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950F40491FD1C2BD00A0EFC7 /* ParentViewController.m */; };
+		950F404D1FD1C39000A0EFC7 /* SearchTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950F404B1FD1C2BD00A0EFC7 /* SearchTimelineViewController.m */; };
 		953C22E61FCF0306004F302F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 953C22E51FCF0306004F302F /* AppDelegate.m */; };
 		953C22E91FCF0306004F302F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953C22E81FCF0306004F302F /* ViewController.m */; };
 		953C22EC1FCF0306004F302F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953C22EA1FCF0306004F302F /* Main.storyboard */; };
@@ -419,9 +421,11 @@
 				953C22F41FCF0306004F302F /* main.m in Sources */,
 				950F40431FD17FC000A0EFC7 /* CustomTweetTableViewCell.m in Sources */,
 				956F9B361FCF105000525E0D /* NSError+TwitterError.m in Sources */,
+				950F404D1FD1C39000A0EFC7 /* SearchTimelineViewController.m in Sources */,
 				953C22E61FCF0306004F302F /* AppDelegate.m in Sources */,
 				956F9B3B1FCF20C300525E0D /* DashboardVC.m in Sources */,
 				950F40461FD1821800A0EFC7 /* CustomTweetView.m in Sources */,
+				950F404C1FD1C38D00A0EFC7 /* ParentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
