@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2A68D72F5971109C2FD690A1 /* Pods_TwitterToolApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06115131CA1EC24ED2DDB5A7 /* Pods_TwitterToolApp.framework */; };
+		950F40431FD17FC000A0EFC7 /* CustomTweetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 950F40421FD17FC000A0EFC7 /* CustomTweetTableViewCell.m */; };
+		950F40461FD1821800A0EFC7 /* CustomTweetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950F40451FD1821800A0EFC7 /* CustomTweetView.m */; };
 		953C22E61FCF0306004F302F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 953C22E51FCF0306004F302F /* AppDelegate.m */; };
 		953C22E91FCF0306004F302F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953C22E81FCF0306004F302F /* ViewController.m */; };
 		953C22EC1FCF0306004F302F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953C22EA1FCF0306004F302F /* Main.storyboard */; };
@@ -20,8 +22,6 @@
 		956F9B381FCF14A600525E0D /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956F9B371FCF149100525E0D /* SafariServices.framework */; };
 		956F9B3B1FCF20C300525E0D /* DashboardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 956F9B3A1FCF20C300525E0D /* DashboardVC.m */; };
 		958FAD531FD0147000FD135B /* TwitterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 956F9B301FCF0B9900525E0D /* TwitterModel.m */; };
-		958FAD561FD0469300FD135B /* SearchTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958FAD551FD0469300FD135B /* SearchTimelineViewController.m */; };
-		95C64C441FD12829007B7294 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C64C431FD12829007B7294 /* ParentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,14 @@
 /* Begin PBXFileReference section */
 		06115131CA1EC24ED2DDB5A7 /* Pods_TwitterToolApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterToolApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A5BE5B557FB66EE50FD84F /* Pods-TwitterToolApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterToolApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterToolApp/Pods-TwitterToolApp.debug.xcconfig"; sourceTree = "<group>"; };
+		950F40411FD17FC000A0EFC7 /* CustomTweetTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTweetTableViewCell.h; sourceTree = "<group>"; };
+		950F40421FD17FC000A0EFC7 /* CustomTweetTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTweetTableViewCell.m; sourceTree = "<group>"; };
+		950F40441FD1821800A0EFC7 /* CustomTweetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTweetView.h; sourceTree = "<group>"; };
+		950F40451FD1821800A0EFC7 /* CustomTweetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTweetView.m; sourceTree = "<group>"; };
+		950F40481FD1C2BD00A0EFC7 /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		950F40491FD1C2BD00A0EFC7 /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		950F404A1FD1C2BD00A0EFC7 /* SearchTimelineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTimelineViewController.h; sourceTree = "<group>"; };
+		950F404B1FD1C2BD00A0EFC7 /* SearchTimelineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTimelineViewController.m; sourceTree = "<group>"; };
 		953C22E11FCF0306004F302F /* TwitterToolApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterToolApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		953C22E41FCF0306004F302F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		953C22E51FCF0306004F302F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,10 +75,6 @@
 		956F9B371FCF149100525E0D /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		956F9B391FCF20C300525E0D /* DashboardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashboardVC.h; sourceTree = "<group>"; };
 		956F9B3A1FCF20C300525E0D /* DashboardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashboardVC.m; sourceTree = "<group>"; };
-		958FAD541FD0469300FD135B /* SearchTimelineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTimelineViewController.h; sourceTree = "<group>"; };
-		958FAD551FD0469300FD135B /* SearchTimelineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTimelineViewController.m; sourceTree = "<group>"; };
-		95C64C421FD12829007B7294 /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
-		95C64C431FD12829007B7294 /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
 		CC069C727E201B6C5DC18696 /* Pods-TwitterToolApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterToolApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterToolApp/Pods-TwitterToolApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +112,17 @@
 				06115131CA1EC24ED2DDB5A7 /* Pods_TwitterToolApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		950F40471FD1C2BD00A0EFC7 /* Guest Login */ = {
+			isa = PBXGroup;
+			children = (
+				950F40481FD1C2BD00A0EFC7 /* ParentViewController.h */,
+				950F40491FD1C2BD00A0EFC7 /* ParentViewController.m */,
+				950F404A1FD1C2BD00A0EFC7 /* SearchTimelineViewController.h */,
+				950F404B1FD1C2BD00A0EFC7 /* SearchTimelineViewController.m */,
+			);
+			path = "Guest Login";
 			sourceTree = "<group>";
 		};
 		953C22D81FCF0306004F302F = {
@@ -182,23 +197,15 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		95C64C451FD13F5C007B7294 /* Guest Login */ = {
-			isa = PBXGroup;
-			children = (
-				95C64C421FD12829007B7294 /* ParentViewController.h */,
-				95C64C431FD12829007B7294 /* ParentViewController.m */,
-				958FAD541FD0469300FD135B /* SearchTimelineViewController.h */,
-				958FAD551FD0469300FD135B /* SearchTimelineViewController.m */,
-			);
-			name = "Guest Login";
-			path = ..;
-			sourceTree = "<group>";
-		};
 		95C64C461FD13F7D007B7294 /* Auth Login */ = {
 			isa = PBXGroup;
 			children = (
 				956F9B391FCF20C300525E0D /* DashboardVC.h */,
 				956F9B3A1FCF20C300525E0D /* DashboardVC.m */,
+				950F40411FD17FC000A0EFC7 /* CustomTweetTableViewCell.h */,
+				950F40421FD17FC000A0EFC7 /* CustomTweetTableViewCell.m */,
+				950F40441FD1821800A0EFC7 /* CustomTweetView.h */,
+				950F40451FD1821800A0EFC7 /* CustomTweetView.m */,
 			);
 			path = "Auth Login";
 			sourceTree = "<group>";
@@ -211,7 +218,7 @@
 				953C22E71FCF0306004F302F /* ViewController.h */,
 				953C22E81FCF0306004F302F /* ViewController.m */,
 				953C22EA1FCF0306004F302F /* Main.storyboard */,
-				95C64C451FD13F5C007B7294 /* Guest Login */,
+				950F40471FD1C2BD00A0EFC7 /* Guest Login */,
 				95C64C461FD13F7D007B7294 /* Auth Login */,
 			);
 			path = "Business Logic Layer";
@@ -409,12 +416,12 @@
 			files = (
 				953C22E91FCF0306004F302F /* ViewController.m in Sources */,
 				958FAD531FD0147000FD135B /* TwitterModel.m in Sources */,
-				95C64C441FD12829007B7294 /* ParentViewController.m in Sources */,
 				953C22F41FCF0306004F302F /* main.m in Sources */,
+				950F40431FD17FC000A0EFC7 /* CustomTweetTableViewCell.m in Sources */,
 				956F9B361FCF105000525E0D /* NSError+TwitterError.m in Sources */,
 				953C22E61FCF0306004F302F /* AppDelegate.m in Sources */,
 				956F9B3B1FCF20C300525E0D /* DashboardVC.m in Sources */,
-				958FAD561FD0469300FD135B /* SearchTimelineViewController.m in Sources */,
+				950F40461FD1821800A0EFC7 /* CustomTweetView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

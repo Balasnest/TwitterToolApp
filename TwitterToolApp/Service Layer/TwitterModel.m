@@ -20,7 +20,7 @@
     
 @end
 
-@implementation TwitterModel{
+@implementation TwitterModel {
     TWTRAPIClient * client;
 }
 +(TwitterModel *)sharedModel{
@@ -118,8 +118,6 @@
 }
 
 
-
-    
 #pragma Mark - save Data for login successful
 -(void)saveDataforLoginSuccessful{
     [[NSUserDefaults standardUserDefaults]setObject:self.SessionData forKey:@"loggedinUser"];

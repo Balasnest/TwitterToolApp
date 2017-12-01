@@ -129,38 +129,6 @@
             endingLineNumber = "102"
             landmarkName = "-getHomeTweetsandCallBack:"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[TwitterModel getHomeTweetsandCallBack:]"
-                  moduleName = "TwitterToolApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sumit/Desktop/TwitterToolApp/TwitterToolApp/Model/TwitterModel.m"
-                  timestampString = "533805995.250386"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "102"
-                  endingLineNumber = "102"
-                  offsetFromSymbolStart = "209">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__41-[TwitterModel getHomeTweetsandCallBack:]_block_invoke"
-                  moduleName = "TwitterToolApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sumit/Desktop/TwitterToolApp/TwitterToolApp/Model/TwitterModel.m"
-                  timestampString = "533805995.252159"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "103"
-                  endingLineNumber = "103"
-                  offsetFromSymbolStart = "109">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -225,6 +193,22 @@
             endingLineNumber = "27"
             landmarkName = "-viewWillAppear:"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/TwitterKit/iOS/TwitterKit.framework/Headers/TWTRTweetView.h"
+            timestampString = "533840314.032591"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "-initWithTweet:"
+            landmarkType = "6">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

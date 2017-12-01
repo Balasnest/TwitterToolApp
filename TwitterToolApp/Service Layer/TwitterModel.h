@@ -16,8 +16,6 @@
 + (TwitterModel *) sharedModel;
 -(void)getGuestUserTokenAndCallBack:(void(^)(id))callback;
 -(void)twitterLogin:(UIView *)controllerView andCallback:(void (^)(id))callback;
--(void)GetMyProfileDetailsandCallBack:(void(^)(id))callback;
--(void)getSingleTweetsandCallBack:(void(^)(id))callback;
 -(void)getHomeTweetsandCallBack:(void(^)(id))callback;
 
 -(void)saveDataforLoginSuccessful;

@@ -9,8 +9,10 @@
 #import "DashboardVC.h"
 #import "TwitterModel.h"
 #import <TwitterKit/TwitterKit.h>
+#import "CustomTweetTableViewCell.h"
+#import "CustomTweetView.h"
 
-#define tweetTableCellReuseIdentifier @"tweetCell"
+#define tweetTableCellReuseIdentifier @"CustomTweetTableViewCell"
 
 @interface DashboardVC () <TWTRTweetViewDelegate, UITableViewDelegate,UITableViewDataSource>
 
@@ -30,7 +32,7 @@
     self.tweetHeights = [[NSMutableArray alloc]init];
     
     // Register the identifier for TWTRTweetTableViewCell
-    [self.twitterTableView registerClass:[TWTRTweetTableViewCell class] forCellReuseIdentifier:tweetTableCellReuseIdentifier];
+    [self.twitterTableView registerClass:[CustomTweetTableViewCell class] forCellReuseIdentifier:tweetTableCellReuseIdentifier];
     
     [self loadTweets];
     
@@ -58,7 +60,7 @@
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    TWTRTweetTableViewCell * cell = (TWTRTweetTableViewCell *)[tableView dequeueReusableCellWithIdentifier:tweetTableCellReuseIdentifier forIndexPath:indexPath];
+    CustomTweetTableViewCell * cell = (CustomTweetTableViewCell *)[tableView dequeueReusableCellWithIdentifier:tweetTableCellReuseIdentifier forIndexPath:indexPath];
     
     // Assign the delegate to control events on Tweets.
     cell.tweetView.delegate = self;
@@ -69,7 +71,7 @@
     TWTRTweet * tweet = self.tweets[indexPath.row];
     
     // Configure the cell with the Tweet.
-    [cell configureWithTweet:tweet];
+    [cell.tweetView configureWithTweet:tweet];
     
     // Return the Tweet cell.
     return cell;
@@ -80,7 +82,7 @@
     if (self.tweets.count > indexPath.row) {
         [self.prototypeCell configureWithTweet:tweet];
     }
-    CGFloat tweetHeight = [TWTRTweetTableViewCell heightForTweet:tweet style:TWTRTweetViewStyleCompact width:[tableView bounds].size.width showingActions:YES];
+    CGFloat tweetHeight = [CustomTweetTableViewCell heightForTweet:tweet style:TWTRTweetViewStyleCompact width:[tableView bounds].size.width showingActions:YES];
     
     self.tweetHeights[indexPath.row] = [NSNumber numberWithFloat:tweetHeight];
     

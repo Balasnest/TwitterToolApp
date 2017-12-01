@@ -26,7 +26,7 @@
     //twitter
     [[Twitter sharedInstance] startWithConsumerKey:twitterKey consumerSecret:twitterSecret];
     
-    // Go to Login View Controller
+//    // Go to Login View Controller
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ViewController *ViewController= [storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
     self.window.rootViewController=ViewController;
