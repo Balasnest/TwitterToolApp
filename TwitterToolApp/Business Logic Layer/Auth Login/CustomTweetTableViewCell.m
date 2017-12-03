@@ -7,6 +7,7 @@
 //
 
 #import "CustomTweetTableViewCell.h"
+#import <TwitterKit/TwitterKit.h>
 
 @implementation CustomTweetTableViewCell
 
@@ -19,6 +20,13 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+- (void)configureCell:(TWTRTweet *)tweet{
+    self.customTweetView.showActionButtons = true;
+    [self.customTweetView configureWithTweet:tweet];
+    self.likesCount.text = [NSString stringWithFormat:@"%lld", tweet.likeCount];
+    self.retweetsCount.text = [NSString stringWithFormat:@"%lld", tweet.retweetCount];
 }
 
 @end

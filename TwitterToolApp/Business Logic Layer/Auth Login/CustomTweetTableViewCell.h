@@ -9,6 +9,10 @@
 #import <TwitterKit/TwitterKit.h>
 #import "CustomTweetView.h"
 
-@interface CustomTweetTableViewCell : TWTRTweetTableViewCell
+@interface CustomTweetTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet CustomTweetView *customTweetView;
+@property (weak, nonatomic) IBOutlet UILabel *likesCount;
+@property (weak, nonatomic) IBOutlet UILabel *retweetsCount;
+
+- (void)configureCell:(TWTRTweet *)tweet;
 @end

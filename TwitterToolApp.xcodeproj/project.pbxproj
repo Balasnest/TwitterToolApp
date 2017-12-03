@@ -24,6 +24,7 @@
 		956F9B381FCF14A600525E0D /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956F9B371FCF149100525E0D /* SafariServices.framework */; };
 		956F9B3B1FCF20C300525E0D /* DashboardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 956F9B3A1FCF20C300525E0D /* DashboardVC.m */; };
 		958FAD531FD0147000FD135B /* TwitterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 956F9B301FCF0B9900525E0D /* TwitterModel.m */; };
+		95CDC7401FD3E7BC0054B79A /* CustomTweetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95CDC73F1FD3E7BC0054B79A /* CustomTweetTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		956F9B371FCF149100525E0D /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		956F9B391FCF20C300525E0D /* DashboardVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashboardVC.h; sourceTree = "<group>"; };
 		956F9B3A1FCF20C300525E0D /* DashboardVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashboardVC.m; sourceTree = "<group>"; };
+		95CDC73F1FD3E7BC0054B79A /* CustomTweetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTweetTableViewCell.xib; sourceTree = "<group>"; };
 		CC069C727E201B6C5DC18696 /* Pods-TwitterToolApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterToolApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitterToolApp/Pods-TwitterToolApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,6 +208,7 @@
 				956F9B3A1FCF20C300525E0D /* DashboardVC.m */,
 				950F40411FD17FC000A0EFC7 /* CustomTweetTableViewCell.h */,
 				950F40421FD17FC000A0EFC7 /* CustomTweetTableViewCell.m */,
+				95CDC73F1FD3E7BC0054B79A /* CustomTweetTableViewCell.xib */,
 				950F40441FD1821800A0EFC7 /* CustomTweetView.h */,
 				950F40451FD1821800A0EFC7 /* CustomTweetView.m */,
 			);
@@ -341,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CDC7401FD3E7BC0054B79A /* CustomTweetTableViewCell.xib in Resources */,
 				953C22F11FCF0306004F302F /* LaunchScreen.storyboard in Resources */,
 				953C22EE1FCF0306004F302F /* Assets.xcassets in Resources */,
 				953C22EC1FCF0306004F302F /* Main.storyboard in Resources */,

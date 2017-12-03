@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <TwitterKit/TwitterKit.h>
+#import "CustomTweetTableViewCell.h"
 
 @interface DashboardVC : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITableView *twitterTableView;
 
-@property (strong, nonatomic) TWTRTweetTableViewCell * prototypeCell;
+@property (strong, nonatomic) CustomTweetTableViewCell * prototypeCell;
 
 - (IBAction)backAction:(id)sender;
 @end
