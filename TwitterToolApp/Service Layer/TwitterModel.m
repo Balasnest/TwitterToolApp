@@ -59,6 +59,12 @@
             callback([NSError newErrorCode:error.code]);
         }
     }];
+    // Center in Orientation
+    logInButton.autoresizingMask = UIViewAutoresizingFlexibleTopMargin|
+    UIViewAutoresizingFlexibleBottomMargin|
+    UIViewAutoresizingFlexibleLeftMargin|
+    UIViewAutoresizingFlexibleRightMargin;
+    logInButton.autoresizesSubviews= YES;
     logInButton.center = controllerView.center;
     [controllerView addSubview:logInButton];
 }

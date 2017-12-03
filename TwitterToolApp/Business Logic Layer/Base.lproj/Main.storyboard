@@ -36,14 +36,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons" translatesAutoresizingMaskIntoConstraints="NO" id="FDW-aT-hni">
-                                <rect key="frame" x="137.5" y="121" width="100" height="100"/>
+                                <rect key="frame" x="137.5" y="89" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="yXn-8E-RN0"/>
                                     <constraint firstAttribute="height" constant="100" id="zmk-td-1qO"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© copyright Bala 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enk-Ui-Fd2">
-                                <rect key="frame" x="109" y="589" width="158.5" height="40"/>
+                                <rect key="frame" x="109" y="597" width="158.5" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="pKC-aA-nqa"/>
                                 </constraints>
@@ -52,7 +52,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZE-7m-ttC">
-                                <rect key="frame" x="45" y="375" width="286" height="40"/>
+                                <rect key="frame" x="45" y="406" width="286" height="40"/>
                                 <color key="backgroundColor" red="0.29572105407714844" green="0.65465009212493896" blue="0.93189024925231934" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="EBs-oh-arn"/>
@@ -69,10 +69,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="CZE-7m-ttC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2fo-Sf-Oj8"/>
+                            <constraint firstItem="CZE-7m-ttC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="92.5" id="Ado-2d-mPk"/>
                             <constraint firstItem="FDW-aT-hni" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CVA-si-47v"/>
-                            <constraint firstItem="CZE-7m-ttC" firstAttribute="top" secondItem="FDW-aT-hni" secondAttribute="bottom" constant="154" id="Ece-Wr-XXL"/>
-                            <constraint firstItem="FDW-aT-hni" firstAttribute="top" secondItem="qsk-hf-QZN" secondAttribute="bottom" constant="32" id="IPc-Nt-mnl"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="enk-Ui-Fd2" secondAttribute="bottom" constant="38" id="Y0f-uc-znK"/>
+                            <constraint firstItem="FDW-aT-hni" firstAttribute="top" secondItem="qsk-hf-QZN" secondAttribute="bottom" id="IPc-Nt-mnl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="enk-Ui-Fd2" secondAttribute="bottom" constant="30" id="Y0f-uc-znK"/>
                             <constraint firstItem="enk-Ui-Fd2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aWO-k5-icp"/>
                             <constraint firstItem="qsk-hf-QZN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="19" id="bAu-Um-WqL"/>
                             <constraint firstItem="qsk-hf-QZN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xTA-fC-OZL"/>
